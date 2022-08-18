@@ -26,7 +26,7 @@ public class TextBoxTestWithPageObjects extends TestBase{
                 .setPhone(number)
                 .setSubject("Chemistry")
                 .setHobbies("Sports")
-                .File(link)
+                .file(link)
                 .setAddress(address)
                 .setState("NCR")
                 .setCity("Noida")

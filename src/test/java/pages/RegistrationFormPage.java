@@ -22,7 +22,7 @@ public class RegistrationFormPage {
             phoneInput = $("[id=userNumber]"),
             subject = $("#subjectsInput"),
             hobbies = $("#hobbiesWrapper"),
-            file = $("#uploadPicture"),
+            files = $("#uploadPicture"),
             address = $("[id=currentAddress]"),
             state = $("#react-select-3-input"),
             city = $("#react-select-4-input"),
@@ -87,9 +87,9 @@ public class RegistrationFormPage {
         return this;
     }
 
-    public RegistrationFormPage File(String value)
+    public RegistrationFormPage file(String value)
     {
-        file.uploadFile(new File(value));
+        files.uploadFile(new File(value));
         return this;
 
     }
