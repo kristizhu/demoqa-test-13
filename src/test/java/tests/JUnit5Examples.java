@@ -1,4 +1,4 @@
-package tests;
+/* package tests;
 
 import org.junit.jupiter.api.*;
 
@@ -42,3 +42,4 @@ public class JUnit5Examples {
         System.out.println("== Something after All tests");
     }
 }
+*/
